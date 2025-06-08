@@ -1,0 +1,21 @@
+# Ignore OS and editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*~
+
+# Logs and temporary files
+*.log
+
+# Python virtual envs (if testing with Python)
+venv/
+.env/
+
+# Shell history backups
+bash_history
+bash_profile.bak
+
+# VSCode settings (optional)
+.vscode/
