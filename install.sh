@@ -8,7 +8,7 @@ SOURCE_LINE="source \$HOME/.docker-kube-completion/completion.sh"
 # Clone the repo if it doesn't exist
 if [ ! -d "$TARGET_DIR" ]; then
     echo "[+] Cloning repository..."
-    git clone https://github.com/YOUR_USERNAME/docker-kube-completion.git "$TARGET_DIR"
+    git clone https://github.com/georgezengin/docker-kube-completion.git "$TARGET_DIR"
 else
     echo "[*] Directory already exists. Updating..."
     cd "$TARGET_DIR" && git pull

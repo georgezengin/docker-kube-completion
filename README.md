@@ -16,6 +16,6 @@ Context-aware autocompletion for `docker`, `kubectl`, `helm`, and `docker-compos
 Clone the repo and source the script in your `.bashrc`:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/docker-kube-completion.git ~/.docker-kube-completion
+git clone https://github.com/georgezengin/docker-kube-completion.git ~/.docker-kube-completion
 echo 'source ~/.docker-kube-completion/completion.sh' >> ~/.bashrc
 source ~/.bashrc
